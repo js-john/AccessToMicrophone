@@ -171,5 +171,9 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
         _ = shell(command)
         alert(msg: NSLocalizedString("Success", comment: ""), description: String.init(format: NSLocalizedString("Restart App hint", comment: ""), appName));
     }
+
+    @IBAction func viewOnGithub(_ sender: Any) {
+       _ = shell("open https://github.com/js-john/AccessToMicrophone")
+    }
 }
 

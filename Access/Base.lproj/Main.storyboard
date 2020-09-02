@@ -877,17 +877,19 @@
                                     <constraint firstItem="gfG-KD-RYp" firstAttribute="centerY" secondItem="Ckg-WV-VO8" secondAttribute="centerY" id="jnu-if-j9U"/>
                                     <constraint firstItem="8i2-c3-kf4" firstAttribute="leading" secondItem="blw-W2-VG2" secondAttribute="leading" constant="10" id="n4x-Bf-o9y"/>
                                     <constraint firstAttribute="trailing" secondItem="8i2-c3-kf4" secondAttribute="trailing" constant="10" id="tD8-rh-PGu"/>
-                                    <constraint firstItem="8i2-c3-kf4" firstAttribute="top" relation="greaterThanOrEqual" secondItem="8Tu-X2-PfB" secondAttribute="bottom" constant="65" id="w1h-Xu-8Nm"/>
+                                    <constraint firstItem="8i2-c3-kf4" firstAttribute="top" relation="greaterThanOrEqual" secondItem="8Tu-X2-PfB" secondAttribute="bottom" constant="30" id="w1h-Xu-8Nm"/>
                                 </constraints>
                             </customView>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="k3U-CR-zSh">
-                                <rect key="frame" x="580" y="7" width="46" height="16"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="js-john" id="n9u-6F-1xF">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fgC-Hk-ov3">
+                                <rect key="frame" x="342" y="6" width="284" height="17"/>
+                                <buttonCell key="cell" type="inline" title="https://github.com/js-john/AccessToMicrophone" bezelStyle="inline" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="JcY-Dl-vD4">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="smallSystemBold"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="viewOnGithub:" target="XfG-lQ-9wD" id="FYJ-e1-NnF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="0dM-vz-9J6" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="2L4-Yx-Grt"/>
@@ -897,8 +899,8 @@
                             <constraint firstItem="0u7-Eb-n1c" firstAttribute="leading" secondItem="HzA-e1-5TK" secondAttribute="trailing" constant="5" id="Hne-SI-IFg"/>
                             <constraint firstAttribute="bottom" secondItem="rj3-e7-a9z" secondAttribute="bottom" constant="7" id="J0n-V5-pvS"/>
                             <constraint firstAttribute="trailing" secondItem="blw-W2-VG2" secondAttribute="trailing" constant="20" id="K8X-Ap-9dr"/>
-                            <constraint firstAttribute="trailing" secondItem="k3U-CR-zSh" secondAttribute="trailing" constant="22" id="SQa-bn-FPg"/>
-                            <constraint firstAttribute="bottom" secondItem="k3U-CR-zSh" secondAttribute="bottom" constant="7" id="UAb-lO-3Jr"/>
+                            <constraint firstAttribute="trailing" secondItem="fgC-Hk-ov3" secondAttribute="trailing" constant="20" id="Md0-9H-Fw8"/>
+                            <constraint firstAttribute="bottom" secondItem="fgC-Hk-ov3" secondAttribute="bottom" constant="7" id="O1d-Ms-CAx"/>
                             <constraint firstItem="HzA-e1-5TK" firstAttribute="leading" secondItem="0dM-vz-9J6" secondAttribute="trailing" constant="20" id="VDe-f8-RzN"/>
                             <constraint firstItem="vCk-Pu-bLk" firstAttribute="leading" secondItem="HzA-e1-5TK" secondAttribute="leading" id="b0s-Je-ukp"/>
                             <constraint firstItem="0dM-vz-9J6" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="cka-j6-Lk1"/>
