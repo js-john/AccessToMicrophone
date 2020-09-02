@@ -1,0 +1,21 @@
+/* 
+  localizable.strings
+  Access
+
+  Created by John Smith on 2020/9/2.
+  Copyright © 2020 John Smith. All rights reserved.
+*/
+
+"SIP enabled description" = "开启。本程序必须在SIP关闭时才有效。";
+"SIP disabled description" = "关闭。";
+"No an app" = "请选择一个App!";
+"Error" = "错误";
+"Success" = "成功";
+"Info.plist broken" = "所选App的Info.plist损坏";
+"Unknown App Name" = "未知App";
+"Select App dialog title" = "请选择应用程序";
+"Restart App hint" = "若%@正在运行，续重启%@方可生效";
+
+如何关闭SIP？  1.开机按住command+r键,进入恢复模式。
+2.进入后打开使用工具-终端。
+3.输入命令csrutil disable关闭。 4.重新启动电脑。 ------------------------------------------- 若要开启SIP，上面的步骤3的命令改为 csrutil enable 即可。
